@@ -7,16 +7,15 @@ int maxFitness, maxGrayFitness;
 
 int howmuch = 100;
 
-//color bgcolor = randomColor();
 color bgcolor = color(31);
 
-int polygonsLimit = 500;
+int polygonsLimit = 200;
 
 int genId = 0;
 int lastGenId = genId;
 
 void setVariables() {
-	ww=width/3; hh=height;
+	ww=width/2; hh=height;
 
 	maxFitness = ww*hh*3*256;
 	maxGrayFitness = ww*hh*256;

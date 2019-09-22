@@ -5,7 +5,7 @@ class picture {
 	float fitness=0;
 
 	picture() {
-		for (int i = 0; i<polygonsLimit/4; ++i) {
+		for (int i = 0; i<polygonsLimit; ++i) {
 			polygons.add(new polygon());
 		}
 	}
